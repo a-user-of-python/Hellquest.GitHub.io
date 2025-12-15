@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #ffffff;
+      font-family: system-ui, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      max-width: 420px;
+      margin: auto;
+      background: #1c1c1c;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .note {
+      font-size: 0.9em;
+      opacity: 0.7;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="cover.png" alt="Cover art">
+    <h1>Song Demo</h1>
+    <p>Short demo preview</p>
+
+    <audio controls>
+      <source src="https://drive.google.com/uc?export=download&id=1e21_ON5aJJ2th2_ptS9J20wIA_ymRQ8E" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <div class="note">
+      Demo only · Audio hosted on Google Drive
+    </div>
+  </div>
+
+</body>
+</html>
